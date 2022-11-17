@@ -10,10 +10,8 @@ const TopNavBar = ({ router }: Props) => {
         <Flex className='topnavbar' h='4vh' align='center' justify='space-between'>
             <Text  px={5} fontFamily='helvetica' onClick={() => router.push("./")}><b>Mukti Support Schools</b></Text>
             <Spacer />
-            <Flex>
-                <Text px={5} onClick={() => router.push("./about")}>About</Text>
-                <Spacer />
-                <Text px={5} onClick={() => router.push("./documentation")}>Documentation</Text>
+            <Flex mx='10'>
+                <button onClick={() => router.push("./admin-login")}>Admin Login</button>
             </Flex>
             <br />
         </Flex>
