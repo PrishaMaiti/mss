@@ -27,8 +27,6 @@ a {
 
 .landing-page {
   background-color: #2d1044;
-  width: 100vw;
-  height: 100vh;
 }
 
 .title {
@@ -38,17 +36,19 @@ a {
 
 .login-panel {
   background-color: silver;
-  width: 50vw;
-  height: 40vh;
-  padding: 3%;
 }
 
 .other-page {
   background-color: #2d1044;
-  height: 90vh;
 }
 
 .filler {
   background-color: #2d1044;
-  height: 10vh;
+}
+
+.landing-page-btnbox {
+  background-color: silver;
+  width: 20%;
+  height: 20vh;
+  text-align: center;
 }
